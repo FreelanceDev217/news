@@ -11,7 +11,6 @@ brotlipy==0.7.0
 celery[redis]==4.4.0
 certifi==2019.11.28       # via sentry-sdk
 cffi==1.13.2              # via brotlipy
-colorama==0.4.3           # via ipython
 decorator==4.4.1          # via ipython, traitlets
 defusedxml==0.6.0         # via odfpy
 diff-match-patch==20181111  # via django-import-export
@@ -21,7 +20,7 @@ django-js-reverse==0.9.1
 django-log-request-id==1.4.1
 django-model-utils==4.0.0
 django-webpack-loader==0.6.0
-django==2.2.9
+django==2.2.10
 et-xmlfile==1.0.1         # via openpyxl
 gunicorn==20.0.4
 importlib-metadata==1.5.0  # via kombu
@@ -34,10 +33,12 @@ markuppy==1.14            # via tablib
 odfpy==1.4.1              # via tablib
 openpyxl==3.0.3           # via tablib
 parso==0.6.0              # via jedi
+pexpect==4.8.0            # via ipython
 pickleshare==0.7.5        # via ipython
 prompt-toolkit==3.0.3     # via ipython
 psutil==5.6.7
 psycopg2==2.8.4
+ptyprocess==0.6.0         # via pexpect
 pycparser==2.19           # via cffi
 pygments==2.5.2           # via ipython
 python-decouple==3.3
